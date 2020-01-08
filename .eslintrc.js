@@ -3,6 +3,14 @@ module.exports = {
   env: {
     node: true
   },
+  "globals":{
+    "describe": true,
+    "it": true,
+    "test": true,
+    "expect": true,
+    "jest":true,
+    "beforeEach":true
+  },
   'extends': [
     'plugin:vue/essential',
     '@vue/standard'
